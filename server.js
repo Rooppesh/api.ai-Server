@@ -50,8 +50,7 @@ app.post('/', function(req, res, next) {
     
     // Make an API call to fetch the current weather in the requested city.
     // See https://developer.yahoo.com/weather/
-    let requestURL = 'https://www.viewandhire.com/InterviewService/rest/alexa/getDashboardCountsByOrganization?organization=Jeanmartin%20Chennai&authType=token&authorization=fc11761deb11df77733c90018db4d16b'
-    
+    let requestURL = '#################INSERT URL#################'
     request(requestURL, function(error, response) {
       if(error) {
         next(error);
@@ -81,8 +80,7 @@ app.post('/', function(req, res, next) {
     
     // Make an API call to fetch the current weather in the requested city.
     // See https://developer.yahoo.com/weather/
-    let requestURL = 'https://beta.viewandhire.com/InterviewService/rest/alexa/getTodayInterviewsByInterviewer?organization=Jeanmartin%20Chennai&interviewerName=gubendran&todayDate=05%2F04%2F2018&authType=token&authorization=fc11761deb11df77733c90018db4d16b'
-    
+    let requestURL = '#################INSERT URL#################'
     request(requestURL, function(error, response) {
       if(error) {
         next(error);
